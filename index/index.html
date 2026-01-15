@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo Baeriswyl - CV en ligne</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <!-- Photo de profil -->
+            <div class="profile-section">
+                <div class="profile-photo">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h1 class="name">Hugo Baeriswyl</h1>
+                <p class="title">Informaticien d'entreprise</p>
+            </div>
+
+            <!-- Réseaux sociaux -->
+            <div class="social-links">
+                <a href="https://github.com/hugobaeriswyl" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/hugobaeriswyl" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>30 septembre 2003</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Fribourg, Suisse</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:hugo.baeriswyl@proton.me">hugo.baeriswyl@proton.me</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+41796137978">+41 79 613 79 78</a>
+                </div>
+            </div>
+
+            <!-- Bouton télécharger CV -->
+            <a href="#" class="download-btn">
+                <i class="fas fa-download"></i> Télécharger CV
+            </a>
+        </div>
+    </aside>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about" class="active">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#education">Formation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Section À propos -->
+        <section id="about" class="section">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-text">
+                <p>Passionné par l'informatique et les nouvelles technologies, je suis un informaticien d'entreprise en fin de formation au sein du Groupe Saint-Paul à Fribourg.</p>
+                <p>Mon parcours m'a permis de développer une expertise polyvalente en support utilisateur, administration de systèmes Microsoft (Azure AD, Active Directory) et gestion de parc informatique mixte (Windows/macOS). J'aime résoudre des problèmes techniques et accompagner les utilisateurs au quotidien.</p>
+            </div>
+        </section>
+
+        <!-- Section Ce que je fais -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Ce que je fais</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Support IT</h3>
+                        <p>Support informatique niveau 1 et 2 pour les utilisateurs, téléphonie Teams/PBX, imprimantes et salles de conférence.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Administration Systèmes</h3>
+                        <p>Gestion Microsoft Azure AD hybride, Active Directory On-Premises, politiques de sécurité et MFA.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Gestion de Parc</h3>
+                        <p>Administration du parc informatique Windows et macOS, déploiement, maintenance et documentation.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Développement</h3>
+                        <p>Développement web avec HTML/CSS, JavaScript. Scripts d'automatisation en Python et PowerShell.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences techniques -->
+        <section id="tech-skills" class="section">
+            <h2 class="section-title">Compétences techniques</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4><i class="fas fa-cloud"></i> Systèmes & Cloud</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft Azure AD</span>
+                        <span class="skill-tag">Active Directory</span>
+                        <span class="skill-tag">Microsoft 365</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Environnement hybride</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-desktop"></i> Systèmes d'exploitation</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Windows</span>
+                        <span class="skill-tag">Windows Server</span>
+                        <span class="skill-tag">macOS</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-tools"></i> Outils & Technologies</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft Teams</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Packer</span>
+                        <span class="skill-tag">Ansible</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-code"></i> Langages</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PowerShell</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-language"></i> Langues</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Français (natif)</span>
+                        <span class="skill-tag">Anglais</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Expérience -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Expérience professionnelle</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Août 2022 - Présent</div>
+                    <div class="timeline-content">
+                        <h3>Apprenti Informaticien d'entreprise</h3>
+                        <p class="company"><i class="fas fa-building"></i> Groupe Saint-Paul, Fribourg</p>
+                        
+                        <div class="experience-details">
+                            <h5>Activités principales</h5>
+                            <ul>
+                                <li>Support informatique niveau 1 et 2 pour les utilisateurs</li>
+                                <li>Support téléphonie Teams et PBX</li>
+                                <li>Support projecteurs et salles de conférence</li>
+                                <li>Gestion des imprimantes et solution d'impression centralisée</li>
+                                <li>Gestion du parc informatique (Macintosh et Windows)</li>
+                                <li>Administration Azure AD hybride & Active Directory On-Premises</li>
+                                <li>Élaboration et maintenance de la documentation informatique</li>
+                            </ul>
+                            
+                            <h5>Projets & Missions</h5>
+                            <ul>
+                                <li><span class="date-badge">2022</span> Procédure standardisée pour l'installation de macOS</li>
+                                <li><span class="date-badge">2023</span> Migration de l'environnement MAC sur PC des rédactions</li>
+                                <li><span class="date-badge">2024</span> Organisation vente interne du matériel Apple</li>
+                                <li><span class="date-badge">2024</span> Mise en place politique de mot de passe Azure hybride</li>
+                                <li><span class="date-badge">2024</span> Déploiement de l'authentification MFA pour la sécurité</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Formation -->
+        <section id="education" class="section">
+            <h2 class="section-title">Formation</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>CFC Informaticien d'entreprise</h3>
+                        <p class="company"><i class="fas fa-graduation-cap"></i> Groupe Saint-Paul, Fribourg</p>
+                        <p>Apprentissage en informatique d'entreprise avec spécialisation en support, administration systèmes et gestion de parc informatique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <a href="mailto:hugo.baeriswyl@proton.me">hugo.baeriswyl@proton.me</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Téléphone</h4>
+                        <a href="tel:+41796137978">+41 79 613 79 78</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Localisation</h4>
+                        <span>Fribourg, Suisse</span>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>LinkedIn</h4>
+                        <a href="https://linkedin.com/in/hugobaeriswyl" target="_blank">linkedin.com/in/hugobaeriswyl</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/hugobaeriswyl" target="_blank">github.com/hugobaeriswyl</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Hugo Baeriswyl - Tous droits réservés</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <script src="script.js"></script>
+</body>
+</html>
