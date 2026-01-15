@@ -574,6 +574,32 @@ body {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+/* Project link button */
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, var(--primary-color), #8b83ff);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+}
+
+.project-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(108, 99, 255, 0.4);
+}
+
+.project-link i {
+    font-size: 0.85rem;
+}
+
 /* Footer */
 .footer {
     background: var(--card-bg);
