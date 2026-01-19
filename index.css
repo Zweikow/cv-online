@@ -193,6 +193,21 @@ body {
     padding: 0;
 }
 
+/* Header principal */
+.page-header {
+    background: linear-gradient(135deg, var(--primary-color), #8b7bff);
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Navigation */
 .navbar {
     position: sticky;
